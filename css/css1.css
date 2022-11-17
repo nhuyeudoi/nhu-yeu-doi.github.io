@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: nhunek;
+	src: url("../font/Fragment_Mono/FragmentMono-Regular.ttf");
+}
+@keyframes nhay{
+	0%{
+	transform: translateY(0);}
+	50%{
+	transform: translateY(30px);}
+	100%{
+	transform: translateY(0);}
+	}
+body{
+	font-family: nhunek;
+}
+.banner{
+	background-image: url( "../img/pexels-dids-3527796.jpg");
+	height: 100vh;
+/*	background-position: center;*/
+	justify-content: center;
+	align-items: center;
+	padding: 30px 80px;
+}
+.hello{
+	display: flex;
+/*	align-items: baseline;*/
+	justify-content: right;
+	position: absolute;
+	z-index: 2;
+	color: black;
+}
+.khung1{
+	width: 350px;
+	height: 430px;
+	background-color: white;
+	position: absolute;
+	margin: 220px 930px;
+	box-sizing: border-box;
+	box-shadow: 15px 20px 20px #291152;
+	opacity: 0.7;
+}
+.khung2{
+	width: 210px;
+	height: 774px;
+	margin: -30px -80px;
+	background-color: white;
+	position: absolute;
+	z-index: 3;
+	opacity: 0.5;
+	box-shadow: 10px 0px 20px #291152;
+}
+.khung2 div{
+	font-size: 14px;
+	margin: 600px 0px 0px 5px;
+}
+.hl{
+	font-size: 130px;
+	opacity: 0.7;
+	color: #572f88;
+	position: absolute;
+	z-index: 1;
+	margin: 50px 0px 0px 192px;
+}
+.hello h3{
+	font-size: 40px;
+	padding-bottom: 20px;
+/*	color: white;*/
+}
+.hello div{
+	width: 45%;
+	padding:200px 30px; 
+}
+.hello img{
+	padding: 120px 100px;
+/*	box-shadow: -3px -8px;*/
+}
+.icon1{
+	margin: 470px 0 20px 190px;
+	font-size: 20px;
+}
+.banner i{
+	padding: 10px;
+}
+#chuyendong{
+	font-size: 38px;
+	margin-left: 190px;
+	animation: nhay 2s infinite;
+	color: black;
+}
+#about{
+	display: flex;
+/*	justify-content: center;*/
+	align-items: center;
+	padding:205px 500px;
+}
+.age p{
+	width: 350px;
+	height: auto;
+/*	background: #E86C6E;*/
+	font-size: 20px;
+/*	padding: 200px 0px 0px 50px;*/
+	margin: 60px 0px 0 0;
+	position: absolute;
+	z-index: 1;
+}
+#about img{
+	padding-right: 50px;
+	position: relative;
+	z-index: 1;
+}
+.khung3{
+	width: 380px;
+	height: 750px;
+	margin: 50px -500px;
+	background-color: #5c358e;
+	position: absolute;
+	z-index: 3;
+	opacity: 1;
+	box-shadow: 10px 0px 20px #6e5990;
+}
+.khung4{
+	width: 280px;
+	height: 350px;
+	background: #ad91cc;
+	margin: -50px 0px 0px 20px;
+	position: absolute;
+	z-index: 1;
+	box-shadow: -14px 18px 20px #52298a;
+}
+.wid{
+	margin: 142px 0 0 0px;
+	position: absolute;
+	z-index: 2;
+}
+#widr{
+	font-size: 20px;
+	margin: 148px 0 0 180px;
+	position: absolute;
+	z-index: 3;
+}
+.ab{
+	font-size: 130px;
+	color: #896bb7;
+	margin: -488px 0px 0px 190px;
+}
+.inkhung3{
+	font-size: 18px;
+	margin: 540px 0 0 20px;
+}
+.icon2{
+	font-size: 23px;
+	margin: 20px 0 0 16px;
+}
+#about i{
+	padding-left: 6px
+}
+.skill{
+	display: flex;
+/*	justify-content: center;*/
+	background-position: center;
+	align-items: center;
+	background-image: url("../img/pexels-dids-3527796.jpg");
+}
+.khung5{
+	width: 300px;
+	height: 750px;
+	background: #7c5cbd;
+	opacity: 0.9;
+	box-shadow: 10px 0px 20px #6e5990;
+}
+.skill img{
+	margin: 300px 0 0 650px; 
+	box-shadow: 10px 10px 10px #24153f;
+	position: relative;
+	z-index: 2
+}
+.sk{
+	margin: 280px 0px 0 500px;
+	position: absolute;
+}
+.why{
+	position: absolute;
+	font-size: 23px;
+	margin: -70px 0 0 378px;
+	
+}
+.pts{
+	display: flex;
+	font-size: 25px;
+	margin: 20px 0 0 -40px;
+}
+.pts i{
+	margin: 0 0 0 20px;
+	font-size: 30px;
+}
+.tua{
+	position: absolute;
+	font-size: 130px;
+	color: white;
+	margin: -380px 0 0 700px;
+}
+.khung6{
+	width: 500px;
+	height: 340px;
+	background-color: rebeccapurple;
+	opacity: 0.9;
+/*	box-shadow: 10px 0px 20px #6e5990;*/
+	position: absolute;
+	margin: 240px 0 0 920px;
+	z-index: 1;
+	box-shadow: -10px -10px 15px #24153f;
+	opacity: 0.6;
+}
+.khung5 .icon3{
+	margin: 20px 0 0 20px;
+	font-size: 20px;
+}
+.contact{
+	background: #5c358e;
+	align-items: center;
+	display: flex;
+}
+.ncontact{
+	font-size: 130px;
+	color: white;
+	position: absolute;
+	z-index: 20;
+	margin: -405px 0 0 380px;
+}
+.khung7{
+	width: 340px;
+	height: 750px;
+	background: #ffffff;
+/*	opacity: 0.9;*/
+	box-shadow: 10px 0px 20px #271343;
+}
+.icon4{
+	margin: 20px 0 0 20px;
+	font-size: 22px;
+}
+.inkhung7{
+	font-size: 18px;
+	margin: 540px 0 0 20px;
+}
+.contact img{
+	margin: -180px 0 0 630px;
+	box-shadow: 10px 10px 13px #24153f;
+	position: relative;
+	z-index: 1;
+}
+
+.add{
+	width: 500px;
+	position: absolute;
+	z-index: 2;
+	margin: -280px 0 0px 990px;
+	color: white;
+	font-size: 20px;
+}
+.send{
+	width: 650px;
+	height: 365px;
+	position: absolute;
+	z-index: 20;
+	background-color: mediumpurple;
+	margin: 310px 0 0 450px;
+	box-shadow:10px 10px 13px #24153f;
+}
+.mes{
+/*	width: 00px;*/
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 30px 33px;
+	grid-gap: 10px;
+/*	background-color: aliceblue*/
+}
+.mes textarea{
+	grid-column: 1/3;
+}
+.mes input,textarea{
+	border: none;
+	padding: 20px;
+	border-bottom: 2px solid #24153f;
+/*	font-size: 15px;*/
+	border-radius: 5px;
+	height: 20px;
+	box-sizing: border-box;
+	font-family: nhunek;
+	color: rebeccapurple;
+}
+.mes .mail{
+	grid-column: 1/3;
+}
+.mes .nd{
+	height: 160px;
+	font-size: 16px;
+}
+.send button{
+	width: 170px;
+	height: 30px;
+	font-size: 20px;
+	font-family: nhunek;
+	color: #24153f;
+	border-radius: 7px;
+	margin-left: 230px;
+	margin-top: -210px;
+	outline: none;
+	border: none;
+}
+
+
+
+
+
+#trangnho{}
+
+
+
+#projects{
+	background-image: url( "../img/pexels-dids-3527796.jpg");
+	height: 100vh;
+/*	background-position: center;*/
+	justify-content: center;
+	align-items: center;
+/*	padding: 30px 80px;*/
+	background-position: left;
+}
+.khung8{
+	width: 300px;
+	height: 713px;
+	background: #7c5cbd;
+	opacity: 0.9;
+	box-shadow: 10px 0px 20px #6e5990;
+}
+.inkhung8{
+	font-size: 18px;
+	padding: 500px 0 0 10px;
+}
+.icon5{
+	margin: 15px 0 0 12px;
+	font-size: 20px;
+}
+.saup{
+	width: 660px;
+	height: 410px;
+	margin: -420px 0 0 775px;
+/*	background: #AF383A;*/
+	position: relative;
+	z-index: 2;
+}
+.saup img{
+	width:150px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+.p1{
+	width: 200px;
+	height: 190px;
+/*	background-color: aqua;*/
+	float: left;
+	margin: 5px 10px;
+	cursor: pointer;
+}
+.p1 h5{
+	font-size: 20px;
+	margin: 3px 0 0 40px;
+}
+.tuapro{
+	margin: -630px 0 0 425px;
+	color: white;
+	font-size: 130px;
+	position: absolute;
+	z-index: 3;
+}
+.khung9{
+	width: 480px;
+	height: 300px;
+	background-color: mediumpurple;;
+/*	box-shadow: 10px 0px 20px #6e5990;*/
+	position: absolute;
+	margin: -310px 0 0 680px;
+	z-index: 1;
+	box-shadow: -12px 12px 12px #24153f;
+	opacity: 0.7;
+}
+#nutxuong{
+	font-size: 38px;
+	margin: -100px 0 0 470px;
+	position: absolute;
+	animation: nhay 2s infinite;
+	color: black;
+}
+.blog{
+	justify-content: center;
+	align-items: center;
+	background-color: rebeccapurple;
+}
+.inkhung10{
+	width: 350px;
+	height: 713px;
+	background-color: white;
+	opacity: 0.9;
+	box-shadow: 3px 0px 30px black;
+}
+.inkhung10{
+	font-size: 21px;
+	padding: 500px 0 0 10px;
+	box-sizing: border-box;
+}
+.icon6{
+	margin: -95px 0 0 12px;
+	font-size: 23px;
+	position: absolute;
+}
+.ndb{
+	width: 1050px;
+	height:490px;
+/*	background-color: brown;*/
+	margin: -490px 0 0 410px;
+	position: absolute;
+	z-index: 20;
+	
+}
+.b4{
+	width: 300px;
+	height: 230px;
+/*	background-color: aqua;*/
+	float: left;
+	margin: 10px 0 0 40px;
+	
+}
+.b4 img{
+	width: 260px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.b4 h5{
+	width: 290px;
+	font-size:15px;
+	margin-left: 24px;
+	color: white;
+	cursor: pointer;
+}
+.b4 p{
+	width: 290px;
+	margin-left: 24px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+}
+.tuablog{
+	font-size: 130px;
+	color: white;
+	margin: -650px 0 0 1105px;
+	position: absolute;
+	z-index: 30;
+}
+.menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px;
+	position: fixed;
+	z-index: 99;
+	background: white;
+}
+.menu h1{
+	font-size: 30px;
+	cursor: pointer;
+	padding-left: 60px;
+}
+.menu ul li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 5px;
+	color: rebeccapurple;
+}
+.menu button{
+	padding: 10px 20px;
+	background-color: rebeccapurple;
+	color: white;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin-right: 140PX;
+	cursor: pointer;
+/*	box-shadow: -3px 3px 8px black;*/
+}
+.khung11{
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	z-index: 10;
+	background: #9D2426;
+	margin: -400px 0 0 400px;
+	background-color: mediumpurple;
+	box-shadow: -10px 10px 15px black;
+	opacity: 0.6;
+}
